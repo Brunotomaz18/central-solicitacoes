@@ -1,0 +1,55 @@
+
+/* Configurações globais da aplicação */
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  color: #f1f3f6;
+  background: #111318;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: dark;
+}
+
+/* Padronização dos elementos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: #111318;
+}
+
+/* Elementos de formulário */
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
